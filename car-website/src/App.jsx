@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import Carrousel from "./components/Carrousel";
 import { carData } from "./data/carData";
+import PopularFeatures from "./components/PopularFeatures";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div>
         <Carrousel slides={carData} speed={40} />
       </div>
+      <PopularFeatures />
     </div>
   );
 }

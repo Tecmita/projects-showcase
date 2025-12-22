@@ -24,14 +24,16 @@ const AboutSection = () => {
           alt="Interior"
         />
         <div
-          className="flex text-center flex-col bottom-[54%] rounded-2xl right-[-1%] h-24 w-40 justify-center items-center p-4 bg-white/30 opacity-75 backdrop-blur-3xl  
+          className="flex text-center flex-col bottom-[54%] rounded-2xl right-[-1%] max-w-[200px] justify-center items-center p-4 
+          bg-white/10 backdrop-blur-lg  
+
           absolute
           sm:bottom-1 sm:left-[10%]
-          md:bottom-[13%] md:left-[30%]
-          lg:bottom-[-3%] lg:left-[37%]
+          md:bottom-[13%] md:left-[25%]
+          lg:bottom-[-3%] lg:left-[33%]
           xl:bottom-[-10%] xl:left-[40%]"
         >
-          <h1>2.500+</h1>
+          <h1 className="p-2">2.500+</h1>
           <p>Supercharges placed along popular routes</p>
         </div>
 
