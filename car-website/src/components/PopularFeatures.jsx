@@ -26,7 +26,7 @@ const PopularFeatures = () => {
       <div className="text-center text-white">
         <h1 className="font-semibold text-2xl mt-">More Features</h1>
         <div className="flex align-items justify-center mt-7">
-          <div className="relative w-full max-w-[1680px] h-[700px] ">
+          <div className="relative w-full max-w-[1680px] h-[700px] overflow-hidden">
             <img
               src={map1}
               className="
@@ -58,17 +58,17 @@ const PopularFeatures = () => {
               "
               alt=""
             />
-            <GlassCard className="absolute z-20 top-[20%] left-[10%] md:top-[35%] md:left-[22%] lg:top-[25%] lg:left-[32%] xl:top-[25%%] xl:left-[37%]">
+            <GlassCard className="absolute z-20 top-[20%] left-[10%] md:top-[35%] md:left-[22%] lg:top-[25%] lg:left-[32%] xl:top-[25%] xl:left-[37%]">
               <span className="text-2xl text-white font-semibold">800v</span>
               <span className="text-sm text-white/70">Turbo</span>
               <span className="text-xs text-white/60">Charging</span>
             </GlassCard>
-            <GlassCard className="absolute z-20 top-[37%] right-[8%] md:top-[47%] md:right-[22%] lg:top-[45%] lg:right-[33%] xl:top-[40%%] xl:right-[37%]">
+            <GlassCard className="absolute z-20 top-[37%] right-[8%] md:top-[47%] md:right-[22%] lg:top-[45%] lg:right-[33%] xl:top-[40%] xl:right-[37%]">
               <span className="text-2xl text-white font-semibold">350</span>
               <span className="text-sm text-white/70">Km</span>
               <span className="text-xs text-white/60">Range</span>
             </GlassCard>
-            <GlassCard className="absolute z-20 top-[55%] left-[10%] md:top-[60%] md:left-[22%] lg:top-[65%] lg:left-[32%] xl:top-[65%] xl:left-[37%] 2xl:top-[65%] 2xl:left-">
+            <GlassCard className="absolute z-20 top-[55%] left-[10%] md:top-[60%] md:left-[22%] lg:top-[65%] lg:left-[32%] xl:top-[65%] xl:left-[37%] 2xl:top-[65%] 2xl:left-[37%]">
               <span className="text-2xl text-white font-semibold">480</span>
               <span className="text-sm text-white/70">Km</span>
               <span className="text-xs text-white/60">Range</span>
