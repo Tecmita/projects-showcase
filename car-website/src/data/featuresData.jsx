@@ -1,3 +1,13 @@
+const iconsImport = import.meta.glob("../assets/carrouselIcons/*.svg", {
+  eager: true,
+});
+
+const carrouselIcons = {};
+Object.keys(iconsImport).forEach((path) => {
+  const fileName = path.split("/").pop().replace(".svg", "");
+  carrouselIcons[fileName] = iconsImport[path].default;
+});
+
 const carImages = import.meta.glob("../assets/porscheFeatures/*.svg", {
   eager: true,
 });
@@ -13,4 +23,5 @@ export const featuresData = brand.map((currentBrandName, index) => ({
   model: model[index],
   prices: prices[index],
   image: featuresImages[index],
+  saveIcon: carrouselIcons.saveIcon,
 }));

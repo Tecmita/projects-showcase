@@ -6,6 +6,7 @@ import AboutSection from "./components/AboutSection";
 import Carrousel from "./components/Carrousel";
 import { carData } from "./data/carData";
 import PopularFeatures from "./components/PopularFeatures";
+import Features from "./components/Features";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Carrousel slides={carData} speed={40} />
       </div>
       <PopularFeatures />
+      <Features />
     </div>
   );
 }
