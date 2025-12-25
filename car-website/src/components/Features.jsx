@@ -11,17 +11,15 @@ const Features = () => {
         </h1>
         <div
           className="
-    grid grid-cols-1
-    md:grid-cols-3
-    lg:grid-cols-3
-    gap-2
-    place-items-center
-  "
+          grid grid-cols-1
+          md:grid-cols-3
+          lg:grid-cols-3
+          gap-2
+          place-items-center
+          "
         >
           {featuresData.map((item, i) => (
-            <div key={i} className="mx-auto">
-              <CardContent item={item} variant="simple" />
-            </div>
+            <CardContent key={i} item={item} variant="simple" />
           ))}
         </div>
       </div>
